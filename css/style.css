@@ -1,0 +1,143 @@
+.header__nav__icons {
+    display: flex;
+    gap: 1.875rem;
+}
+.icons__element {
+    width: 30px;
+    height: 30px;
+}
+.element__img{
+    max-width: 100%;
+}
+.section__nature img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+section{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+*{
+    margin: 0;
+}
+.gallery__block{
+    width: 100%;
+    height: 450px;
+}
+.galery__nature img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.galery__nature{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.Gallery{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.col-4{
+    padding: 0 !important;
+}
+.icons__adob{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+}
+.icons__adob img{
+    max-width: 100%;
+
+}
+/* ----------------------------- */
+form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  div {
+    margin: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical; /* Дозволяє змінювати вертикальний розмір */
+  }
+  /* =========================== */
+  .footer{
+    margin-top: 50px;
+  }
+  .countainer__footer{
+    margin-top: 100px;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin-bottom: 3.125rem;
+    
+  }
+  .hr{
+    width: 100%;
+    border: 1px solid rgba(26, 26, 26, 0.808);
+  }
+  .cirkle{
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  }
+  .cirkle img{
+    overflow: hidden;
+    object-fit: cover;
+    max-width: 100%;
+  }
+  .footer__text{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+  }
